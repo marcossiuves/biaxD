@@ -10,12 +10,20 @@ public class Main {
 
 		Scanner input = new Scanner(System.in);
 		System.out.println("Inicio: ");
+
 		while (!message.equalsIgnoreCase("sair")) {
+
 			message = input.nextLine();
+
+			if (message.equalsIgnoreCase("sair"))
+				break;
+
 			int position = command.typeResponse(message);
 			System.out.println(command.justChatting(position));
+
 		}
 
+		System.out.println("Até mais!");
 		input.close();
 
 	}
