@@ -5,7 +5,10 @@ public class responses {
 	
 	String[] allResponses = {
 			
-			"Oi","Olá, como você vai?"
+			"Oi","OlE como vocEvai?",
+			"Vou bem", "Isso Ebom! ",
+			"E vocE", "Vou bem também!",
+			"Me responde algo", "O que E"
 	};
 	
 	public responses() {
